@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:resin/rpi-raspbian
 MAINTAINER Stefan Kleeschulte
 WORKDIR /usr/src/app
 RUN npm install forever -g
