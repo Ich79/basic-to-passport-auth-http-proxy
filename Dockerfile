@@ -1,4 +1,4 @@
-FROM node:resin/rpi-raspbian
+FROM arm32v7/node
 MAINTAINER Stefan Kleeschulte
 WORKDIR /usr/src/app
 RUN npm install forever -g
