@@ -1,5 +1,4 @@
-ARG NODE_VERSION=10
-FROM node:${NODE_VERSION}
+FROM arm64v8/node:latest
 MAINTAINER Stefan Kleeschulte
 WORKDIR /usr/src/app
 RUN npm install forever -g
