@@ -1,4 +1,4 @@
-FROM arm64v8/node:latest
+FROM arm32v7/node:10
 MAINTAINER Stefan Kleeschulte
 WORKDIR /usr/src/app
 RUN npm install forever -g
